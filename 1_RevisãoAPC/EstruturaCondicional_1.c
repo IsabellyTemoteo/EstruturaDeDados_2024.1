@@ -45,7 +45,7 @@ int main(){
     }
 
     
-    printf("Em ordem crescente: %d %d %d\n", vetor[0], vetor[1], vetor[2]);
+    printf("Em ordem crescente: %d %d %d\n\n", vetor[0], vetor[1], vetor[2]);
 
     return 0;
 }

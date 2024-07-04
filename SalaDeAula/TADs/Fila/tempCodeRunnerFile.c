@@ -1,0 +1,1 @@
+printf("%d",fila_enfileira(&f, 3));

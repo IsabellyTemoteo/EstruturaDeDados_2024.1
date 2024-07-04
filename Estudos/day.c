@@ -24,7 +24,7 @@ int main()
     int M, m;
  int vetor[]={2,9,8,10,1,3}
  menormaior(&M,&m, vetor);
- p
+ 
     return 0;
 }
 

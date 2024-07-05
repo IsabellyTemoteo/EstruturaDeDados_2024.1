@@ -1,6 +1,5 @@
 /**
  * Isabelly Araújo Temoteo
- * 20233013000
  * 2024.1
 
     Faca um programa que preencha dois vetores de dez elementos numericos

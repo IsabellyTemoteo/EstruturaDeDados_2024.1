@@ -1,6 +1,5 @@
 /**
  * Isabelly Araújo Temoteo
- * 20233013000
  * 2024.1
 
     Faca uma sub-rotina que receba um vetor A de dez elementos inteiros

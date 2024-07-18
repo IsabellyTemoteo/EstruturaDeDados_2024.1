@@ -1,6 +1,5 @@
 /**
  * Isabelly Araújo Temoteo
- * 20233013000
  * 2024.1
 
 Dados tres valores X, Y e Z, verifique se eles podem ser os comprimentos dos lados de um triangulo e, se forem, verifique se e um triangulo

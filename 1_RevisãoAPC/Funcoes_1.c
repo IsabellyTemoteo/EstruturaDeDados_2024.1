@@ -1,6 +1,5 @@
 /**
  * Isabelly Araújo Temoteo
- * 20233013000
  * 2024.1
 
     Faca um programa contendo uma sub-rotina que receba tres numeros inteiros a, b e c, sendo a maior que 1. A sub-rotina devera somar todos os

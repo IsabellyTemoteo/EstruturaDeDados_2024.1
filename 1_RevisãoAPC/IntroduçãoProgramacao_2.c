@@ -1,6 +1,5 @@
 /**
  * Isabelly Araújo Temoteo
- * 20233013000
  * 2024.1
 
 Faça um programa que receba o ano de nascimento de uma pessoa e o ano

@@ -1,6 +1,5 @@
 /**
  * Isabelly Araújo Temoteo
- * 20233013000
  * 2024.1
 
     Crie uma sub-rotina que receba tres numeros inteiros como parametros,

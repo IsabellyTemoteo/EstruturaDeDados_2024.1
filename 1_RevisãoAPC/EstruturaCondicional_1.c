@@ -1,6 +1,5 @@
 /**
  * Isabelly Araújo Temoteo
- * 20233013000
  * 2024.1
 
 Faça um programa que receba três números e mostre-os em ordem crescente. Suponha que o usuario digitara tres nuumeros diferentes.

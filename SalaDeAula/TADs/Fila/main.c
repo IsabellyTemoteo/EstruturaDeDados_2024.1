@@ -61,9 +61,11 @@ int main(){
 
     mostraFila(f);
 
+    divider();
+
     // ===========================
     
-    printf("Removendo elementos:\n");
+    printf("Removendo elementos!\n");
 
     removeFila(&f);
 
@@ -72,6 +74,14 @@ int main(){
     printf("Pos remocao:\n\n");
 
     mostraFila(f);
+
+    divider();
+
+    printf("Continuando a remocao!\n");
+
+    removeFila(&f);
+    removeFila(&f);
+    removeFila(&f);
 
     divider();
 

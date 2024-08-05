@@ -34,7 +34,6 @@ Atleta removeFila(Fila *f) {
     if (vazioFila(*f)) {
         printf("Fila se encontra vazia, impossivel remover elemento.\n");
         Atleta temp;
-        
         return temp;
     }
 

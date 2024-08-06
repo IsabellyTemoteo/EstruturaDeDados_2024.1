@@ -1,61 +1,69 @@
-#include "lista.h"
+#include "Fila.h"
 #include <stdio.h>
 
 void divider(){
-    printf("=========================");
+    printf("\n=================\n");
 }
 
 int main(){
-    lista l1;
-    lista_inicializar(&l1);
+    fila f1;
+    fila_inicializar(&f1);
 
-    lista_adicionar(&l1, 1);
-    lista_adicionar(&l1, 2);
-    lista_adicionar(&l1, 3);
-    lista_adicionar(&l1, 4);
-    lista_adicionar(&l1, 5);
+    fila_adicionar(&f1, 1);
+    fila_adicionar(&f1, 2);
+    fila_adicionar(&f1, 3);
+    fila_adicionar(&f1, 4);
+    fila_adicionar(&f1, 5);
 
-    lista_exibir(l1);
+    fila_exibir(f1);
 
-    divider();
+    fila_remover(&f1);
 
-    lista_remover(&l1, 2);
-
-    lista_exibir(l1);
+    fila_exibir(f1);
 
     divider();
 
-    int maior, menor, posmaior, posmenor;
-    
-    int res;
-    res = maior_e_menor_elementos(&posmaior, &maior, &posmenor, &menor, l1);
+    fila f2;
+    fila_inicializar(&f2);
 
-    printf("\nMaior: %d - %d\nMenor: %d - %d\n", posmaior, maior, posmenor, menor);
+    fila_adicionar(&f2, 6);
+    fila_adicionar(&f2, 7);
+    fila_adicionar(&f2, 8);
+    fila_adicionar(&f2, 9);
+    fila_adicionar(&f2, 10);
 
-    divider();
-
-    lista l2;
-    lista_inicializar(&l2);
-
-    lista_adicionar(&l2, 4);
-    lista_adicionar(&l2, 6);
-    lista_adicionar(&l2, 7);
+    fila_exibir(f2);
 
     divider();
 
-    printf("\nConcatenando listas:\n\n");
+    fila_concatenar(&f1, &f2);
 
-    printf("Lista 1:");
-    lista_exibir(l1);
+    fila_exibir(f1);
 
-    printf("Lista 2:");
-    lista_exibir(l2);
+    divider();
 
-    printf("Concatenando:\n");
-    res = copiar_listas(l1, &l2);
+    fila_maior(f1, f2);
 
-    printf("\nResultado:\n");
-    lista_exibir(l2);
+    divider();
+
+    fila_exibir(f1);
+
+    quant_par(f1);
+
+    divider();
+
+    fila_adicionar(&f2, 8);
+    fila_adicionar(&f2, 9);
+    fila_adicionar(&f2, 10);
+    fila_adicionar(&f2, 11);
+
+    fila f3;
+
+    f3 = intercalar_filas(f1, f2);
+
+    fila_exibir(f3);
+
+    divider();
 
     return 0;
 }

@@ -17,6 +17,14 @@ int main(){
 
     pilha_exibir(f1);
 
+    char s1[] = {"ABCD"};
+    char s2[] = {"DCBA"};
+
+    string_xy(s1, s2);
+
+    char s3[] = {"Bom dia, Isabelly."};
+
+    inverter(s3);
 
     return 0;
 }
